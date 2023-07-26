@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+## Note on revalidate the cache
+go to thunder client and use the get request with /api/revalidate?path=/&secret=GITHUB_SECRET. Then it should give the response as "revalidate:true"
+
+
 First, run the development server:
 
 ```bash
